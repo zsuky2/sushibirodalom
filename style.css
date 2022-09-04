@@ -2,7 +2,7 @@
 
 :root {
 
-    --ghost-white: #f8f9fd;
+    --ghost-white: rgb(242,244,248);
     --granite-gray: #626a6a;
     --baltic-sea: #33383c;
     --fav-red: #b34141;
@@ -409,8 +409,122 @@ header .container {
     color: rgba(182, 12, 12, 0.884);
 }
 
-.services
+.service-item{
 
+    margin: 1rem 0;
+}
+
+.service-img{
+
+    background: var(--ghost-white);
+    padding: 3rem 0;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.service-img img{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    width: 90%;
+    margin: 0 auto;
+    transition: var(--trans);
+    -webkit-transition: var(--trans);
+    -moz-transition: var(--trans);
+    -ms-transition: var(--trans);
+    -o-transition: var(--trans);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.service-img:hover img{
+
+    opacity: 0.8;
+}
+
+.service-content{
+
+    padding: 1.6rem 0;
+    text-align: center;
+}
+
+.add-to-cart-btn{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    border: none;
+    padding: 0.75rem 1.2rem;
+    font-size: 1.05rem;
+    background-color: var(--baltic-sea);
+    color: #fff;
+    transition: var(--trans);
+    -webkit-transition: var(--trans);
+    -moz-transition: var(--trans);
+    -ms-transition: var(--trans);
+    -o-transition: var(--trans);
+    opacity: 0;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.service-item:hover .add-to-cart-btn{
+    
+    opacity: 1;
+}
+
+.add-to-cart-btn .fas{
+
+    margin-right: 0.4rem;
+}
+
+.add-to-cart-btn:hover{
+
+    background-color: #23272a;
+    color: var(--fav-red);
+}
+
+.service-category{
+
+    margin: 0.8rem 0;
+    display: inline-block;
+    font-weight: 500;
+    background: var(--fav-red);
+    color: #fff;
+    padding: 0.05rem 1.5rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    letter-spacing: 2px;
+}
+
+.service-price{
+
+    font-size: 1.15rem;
+    font-weight: 500;
+    opacity: 0.9;
+    color: #000!important;
+}
 
 /*Media Queries for responsiveness*/
 
@@ -442,6 +556,13 @@ header .container {
         left: auto;
         right: 3rem;
     }
+
+    .service-list{
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
     
 }
 
@@ -469,27 +590,37 @@ header .container {
 
         text-align: left;
     }
+ 
+    .service-list{
 
-    @media screen and (min-width: 1200px){
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (min-width: 1200px){
         
-        .navbar{
+    .navbar{
 
-            padding: 1.5rem 14rem!important;
-        }
+        padding: 1.5rem 14rem!important;
+    }
 
-        .cart-container{
+    .cart-container{
 
-            right: 14rem;
-        }
+        right: 14rem;
+    }
 
-        .banner-content{
+    .banner-content{
 
-            text-align: center;
-        }
+        text-align: center;
+    }
 
-        .banner-content h1{
+    .banner-content h1{
 
-            font-size: 3.5rem;
-        }
+        font-size: 3.5rem;
+    }
+
+    .service-list{
+
+        grid-template-columns: repeat(4, 1fr);
     }
 }
