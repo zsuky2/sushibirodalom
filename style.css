@@ -337,6 +337,7 @@ header .container {
 
     font-weight: 600;
     font-size: 1.15rem;
+    padding: 1rem;
 }
 
 .btns{
@@ -381,6 +382,31 @@ header .container {
     color: #111;
 }
 
+/*About section*/
+.about-section {
+
+    padding: 6rem 1rem;
+    text-align: center;
+    line-height: 1.75rem;
+    font-weight: 500;    
+    font-size: 1.25rem; 
+    
+}
+
+.about-section h2{
+
+    text-transform: uppercase;
+    margin: 1rem;
+}
+
+.about-section p{
+
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 1rem;
+    font-style: italic;
+    font-weight: 600;
+}
+
 /*Services*/
 .services{
 
@@ -401,7 +427,7 @@ header .container {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #000;
-    margin-bottom: .5rem;    
+    margin-bottom: .5rem;   
 }
 
 .services p{
@@ -416,7 +442,7 @@ header .container {
 
 .service-img{
 
-    background: var(--ghost-white);
+    background: rgba(255, 255, 255, 0.6);
     padding: 3rem 0;
     height: 300px;
     overflow: hidden;
@@ -525,6 +551,49 @@ header .container {
     opacity: 0.9;
     color: #000!important;
 }
+
+#contact{
+
+    padding: 6rem 1rem;
+    text-align: center;
+}
+
+#contact h1{
+
+    text-transform: uppercase;
+}
+#contact h1, #contact i{
+
+    color: var(--fav-red);
+    margin-bottom: 1rem;
+}
+
+.contact-versions{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.contact-versions h3{
+
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact-versions p{
+
+    font-size: 1.1rem;
+    margin: 1rem 0;
+    font-weight: 700;
+}
+.contact-versions li{
+
+    list-style: none;
+    font-size: 1.1rem;
+    
+}
+
 
 /*Media Queries for responsiveness*/
 
