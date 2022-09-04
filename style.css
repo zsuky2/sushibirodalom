@@ -566,12 +566,12 @@ header .container {
 
     color: var(--fav-red);
     margin-bottom: 1rem;
+    margin-top: 2rem;
 }
 
 .contact-versions{
 
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
     
 }
 
@@ -631,6 +631,12 @@ header .container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         column-gap: 2rem;
+    }
+
+    .contact-versions{
+
+        grid-template-columns: repeat(3, 1fr);
+        
     }
     
 }
