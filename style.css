@@ -140,17 +140,20 @@ header .container {
 /* Javascript related class */
 .show-navbar {
 
-    height: 204px;
+    height: 204px;    
 }
 
 .navbar-collapse ul {
 
+    
     list-style-type: none;
 }
 
 .navbar-collapse li {
 
     margin: 0.7rem 0;
+    
+    margin-right: +20%;
     letter-spacing: 2px;
     text-align: center;
 }
@@ -242,7 +245,7 @@ header .container {
     align-items: center;
     position: relative;
     padding: 1.2rem 0.6rem;
-    height: 140px;
+    height: 200px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.21);
 }
 
@@ -270,7 +273,7 @@ header .container {
 
 .cart-item img{
 
-    width: 80px;
+    width: 200px;
 }
 
 .cart-item-info{
@@ -290,11 +293,12 @@ header .container {
     align-items: center;
     justify-content: flex-start;
     background: var(--fav-red);
+
 }
 
 .cart-total h3{
 
-    margin-right: 0.2rem;
+    margin-right: 0.2rem; 
     font-size: 1.3rem;
 }
 
