@@ -22,6 +22,7 @@ body {
     line-height: 1.5;
     font-weight: 400;
     background: rgba(255, 248, 222,0.7);
+    transition: background 0.3s linear;
 }
 
 #up {
@@ -34,6 +35,61 @@ body {
 
 }
 
+body.dark-mode{
+
+    background: #292c35;
+}
+
+.dark-mode label {
+
+    position: fixed;
+    z-index:999;
+    background: #111;
+    width: 50px;
+    height: 26px;
+    border-radius: 50px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.dark-mode .fa-moon {
+
+    color: #f1c40f;
+}
+
+.fa-sun {
+
+    color: #f39c12;
+}
+
+.ball {
+
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 22px;
+    height: 22px;
+    background: #fff;
+    border-radius: 50%;
+    transition: transform 0.3s linear;
+}
+
+.checkbox:checked + label .ball {
+
+    transform: translateX(24px);
+}
+
+.checkbox{
+
+    position: fixed;
+    left: 1rem;
+    top: 2.5rem;
+    z-index:999;
+    opacity: 0;
+}
 /* resets and resuable stylings */
 img {
 
@@ -94,7 +150,7 @@ header .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    z-index: 999;
+    z-index: 998;
     background: rgba(255, 255, 255, 0.6);
 }
 
@@ -442,6 +498,7 @@ header .container {
     overflow: hidden;
     position: relative;
     border-radius: 50px;
+    object-fit: cover;
 }
 
 .service-img img{
@@ -704,6 +761,15 @@ hr{
 
 /*Media Queries for responsiveness*/
 
+@media screen and (max-width: 480px){
+
+    .dark-mode label {
+
+        right: 21%;
+        top: 3.5%;
+    }    
+}
+
 @media screen and (min-width: 480px) {
 
     /*header*/
@@ -718,6 +784,11 @@ hr{
         margin-right: 0.4rem;
     }
     
+    .dark-mode label {
+
+        right: 10%;
+        top: 2.3%;
+    }
     
 }
 
@@ -746,6 +817,13 @@ hr{
         grid-template-columns: repeat(3, 1fr);
         
     }
+
+    .dark-mode label {
+
+        right: 2%;
+        top: 4.1%;
+    }
+    
     
 }
 

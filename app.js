@@ -35,6 +35,11 @@ function eventListeners() {
 
     //remove from cart
     cartList.addEventListener("click", deleteService);
+
+    document.getElementById("checkbox").addEventListener("change",function(){
+
+        document.body.classList.toggle("dark-mode");
+    })
 }
 
 //update cart info
