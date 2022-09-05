@@ -445,6 +445,7 @@ header .container {
     height: 200px;
     overflow: hidden;
     position: relative;
+    border-radius: 50px;
 }
 
 .service-img img{
