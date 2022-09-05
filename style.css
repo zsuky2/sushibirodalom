@@ -38,7 +38,16 @@ body {
 body.dark-mode{
 
     background: #292c35;
+    color: rgb(255, 255, 255) !important;
 }
+
+body.dark-mode p{
+
+    opacity: 1;
+    color: #fff;
+    font-weight: 400;
+}
+
 
 .dark-mode label {
 
@@ -492,7 +501,7 @@ header .container {
 
 .service-img{
 
-    background: rgba(255, 255, 255, 0.6);
+    background: transparent;
     padding: 3rem 0;
     height: 200px;
     overflow: hidden;
@@ -528,6 +537,17 @@ header .container {
 .service-img:hover img{
 
     opacity: 0.8;
+}
+
+.service-list{
+
+    background: rgba(255, 255, 255, 0.7);
+    padding: 2rem;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
 }
 
 .service-content{
