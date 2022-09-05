@@ -1,0 +1,268 @@
+[
+    {
+        "name": "Vöröstonhal",
+        "category": "Nigiri",
+        "price": "650",
+        "quantity":"1 db",
+        "imgSrc": "img/tonhalnigiri.png"
+    },
+    {
+        "name": "Lazac",
+        "category": "Nigiri",
+        "price": "620",
+        "quantity":"1 db",
+        "imgSrc":"img/lazacnigiri.png"
+    },
+    {
+        "name":"Surimi",
+        "category":"Nigiri",
+        "price":"550",
+        "quantity":"1 db",
+        "imgSrc":"img/suriminigiri.png"
+    },
+    {
+        "name":"Tigrisrák",
+        "category":"Nigiri",
+        "price":"620",
+        "quantity":"1 db",
+        "imgSrc":"img/tigrisraknigiri.png"
+    },
+    {
+        "name":"Lazackaviár",
+        "category":"Nigiri",
+        "price":"1350",
+        "quantity":"1 db",
+        "imgSrc":"img/lazackaviarnigiri.jpg"
+    },
+    {
+        "name":"Narancssárga rákkaviár",
+        "category": "Nigiri",
+        "price":"630",
+        "quantity":"1 db",
+        "imgSrc":"img/narancsrakkaviarnigiri.jpg"
+    },
+    {
+        "name": "Nagi set",
+        "category": "Nigiri mix",
+        "price": "2750",
+        "quantity":"7 db",
+        "imgSrc": "img/nagiset.png"
+    },
+    {
+        "name": "Jyo set",
+        "category":"Nigiri mix",
+        "price":"5590",
+        "quantity":"12 db",
+        "imgSrc":"img/jyoset.png"
+    },
+    {
+        "name":"Sato set",
+        "category":"Nigiri mix",
+        "price":"3390",
+        "quantity":"10 db",
+        "imgSrc":"img/satoset.png"
+    },
+    {
+        "name":"Hogi set",
+        "category":"Nigiri mix",
+        "price":"2990",
+        "quantity":"6 db",
+        "imgSrc":"img/hogiset.png"
+    },
+    {
+        "name":"Avokádó",
+        "category":"Maki",
+        "price":"960",
+        "quantity":"6 db",
+        "imgSrc":"img/avokadomaki.png"
+    },
+    {
+        "name":"Vöröstonhal",
+        "category":"Maki",
+        "price":"1200",
+        "quantity":"6 db",
+        "imgSrc":"img/tonhalmaki.png"
+    },
+    {
+        "name": "Lazac",
+        "category": "Maki",
+        "price": "1150",
+        "quantity":"6 db",
+        "imgSrc":"img/lazacmaki.png"
+    },
+    {
+        "name":"Füstölt lazac uborkával",
+        "category":"Maki",
+        "price":"1150",
+        "quantity":"6 db",
+        "imgSrc":"img/lazacuborkamaki.png"
+    },
+    {
+        "name":"Surimi",
+        "category":"Maki",
+        "price":"930",
+        "quantity":"6 db",
+        "imgSrc":"img/surimimaki.png"
+    },
+    {
+        "name":"Tigrisrák",
+        "category":"Maki",
+        "price":"1190",
+        "quantity":"6 db",
+        "imgSrc":"img/tigrisrakmaki.png"
+    },
+    {
+        "name":"Zöldséges",
+        "category":"Maki",
+        "price":"790",
+        "quantity":"6 db",
+        "imgSrc":"img/zoldsegesmaki.png"
+    },
+    {
+        "name": "Alaska",
+        "category":"Big Maki",
+        "price":"2190",
+        "quantity":"8 db",
+        "imgSrc":"img/bigalaskamaki.jpg"
+    },
+    {
+        "name":"Avokádó lazacban",
+        "category":"Big Maki",
+        "price":"2270",
+        "quantity":"8 db",
+        "imgSrc":"img/bigavokadolazacbanmaki.png"
+    },
+    {
+        "name":"California",
+        "category":"Big Maki",
+        "price":"2130",
+        "quantity":"8 db",
+        "imgSrc":"img/bigkaliforniamaki.jpg"
+    },
+    {
+        "name":"Dragon",
+        "category":"Big Maki",
+        "price":"2290",
+        "quantity":"8 db",
+        "imgSrc":"img/bigdragonmaki.jpg"
+    },
+    {
+        "name":"Füstölt lazacos",
+        "category":"Big Maki",
+        "price":"2270",
+        "quantity":"8 db",
+        "imgSrc":"img/bigfustoltlazacmaki.jpg"
+    },
+    {
+        "name":"Kaviár mix",
+        "category":"Big Maki",
+        "price":"2320",
+        "quantity":"8 db",
+        "imgSrc":"img/bigkaviarmaki.jpg"
+    },
+    {
+        "name":"Ninja",
+        "category":"Big Maki",
+        "price":"2900",
+        "quantity":"8 db",
+        "imgSrc":"img/bigninjamaki.jpg"
+    },
+    {
+        "name":"Rainbow",
+        "category":"Big Maki",
+        "price":"2290",
+        "quantity":"8 db",
+        "imgSrc":"img/bigrainbowmaki.jpg"
+    },
+    {
+        "name":"Rock and Roll",
+        "category":"Big Maki",
+        "price":"3250",
+        "quantity":"8 db",
+        "imgSrc":"img/bigrockmaki.jpg"
+    },
+    {
+        "name":"Hokaido",
+        "category":"Nigiri és Maki mix",
+        "price":"3150",
+        "quantity":"16 db",
+        "imgSrc":"img/hokaidomix.png"
+    },
+    {
+        "name":"La-Guna",
+        "category":"Nigiri és Maki mix",
+        "price":"5390",
+        "quantity":"24 db",
+        "imgSrc":"img/lagunamix.png"
+    },
+    {
+        "name":"Togo",
+        "category":"Nigiri és Maki mix",
+        "price":"5690",
+        "quantity":"22 db",
+        "imgSrc":"img/togomix.png"
+    },
+    {
+        "name":"Yaguza",
+        "category":"Nigiri és Maki mix",
+        "price":"5890",
+        "quantity":"23 db",
+        "imgSrc":"img/yakuzamix.png"
+    },
+    {
+        "name":"Miku",
+        "category":"Nigiri és Maki mix",
+        "price":"9550",
+        "quantity":"39 db",
+        "imgSrc":"img/mikumix.png"
+    },
+    {
+        "name":"Nara",
+        "category":"Nigiri és Maki mix",
+        "price":"10890",
+        "quantity":"32 db",
+        "imgSrc":"img/naramix.png"
+    },
+    {
+        "name":"Sakura",
+        "category":"Nigiri és Maki mix",
+        "price":"12190",
+        "quantity":"34 db",
+        "imgSrc":"img/sakuramix.jpg"
+    },
+    {
+        "name":"Bundázott almakarika karamellöntettel",
+        "category":"Desszert",
+        "price":"610",
+        "quantity": "3 db",
+        "imgSrc":"img/bundazottalma.jpg"
+    },
+    {
+        "name":"Bundázott banán csokoládéöntettel",
+        "category":"Desszert",
+        "price":"650",
+        "quantity":"4 db",
+        "imgSrc":"img/bundazottbanan.jpg"
+    },
+    {
+        "name":"Bundázott banán, vanília fagylalttal",
+        "category":"Desszert",
+        "price":"980",
+        "quantity":"4 db banán és 1 gombóc fagylalt",
+        "imgSrc":"img/bundazottbananfagyi.jpg"
+    },
+    {
+        "name":"Grillezett ananász mézzel",
+        "category":"Desszert",
+        "price":"640",
+        "quantity":"3 db",
+        "imgSrc":"img/grillezettananasz.jpg"
+    },
+    {
+        "name":"Vanília fagylalt gyümölcsökkel",
+        "category":"Desszert",
+        "price":"760",
+        "quantity":"1 db",
+        "imgSrc":"img/vaniliafagylaltgyumolcsokkel.jpg"
+    }
+]

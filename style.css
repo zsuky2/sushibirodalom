@@ -27,8 +27,8 @@ body {
 #up {
 
     position: fixed;
-    right: 1em;
-    bottom: 1em;
+    right: 0.5em;
+    bottom: 0.5em;
     z-index: 999;
     color: var(--fav-red);
 
@@ -442,7 +442,7 @@ header .container {
 
     background: rgba(255, 255, 255, 0.6);
     padding: 3rem 0;
-    height: 300px;
+    height: 200px;
     overflow: hidden;
     position: relative;
 }
@@ -524,6 +524,12 @@ header .container {
 
     background-color: #23272a;
     color: var(--fav-red);
+}
+
+.service-name{
+
+    font-size: 1.3rem;
+    color: var(--fav-red) !important;
 }
 
 .service-category{
